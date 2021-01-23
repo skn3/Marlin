@@ -70,7 +70,7 @@
  //#define Bondtech
  //#define E3DTitan
  //#define E3DHemera
- //#define CrealityTitan
+ #define CrealityTitan
  //#define DDXExtruderKit
 
  //#define MicroswissDirectDrive

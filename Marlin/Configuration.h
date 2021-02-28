@@ -1750,7 +1750,7 @@
     #define NOZZLE_TO_PROBE_OFFSET { -40, 0, 0 }
 #elif ENABLED(MachineCR10SV2)
   #if ENABLED(ABL_BLTOUCH)
-    #define NOZZLE_TO_PROBE_OFFSET { 45, 7, 0 }
+    #define NOZZLE_TO_PROBE_OFFSET { 45, 7, -2.7 } //the default z offset has been measured by following https://marlinfw.org/docs/gcode/M851.html
   #elif ENABLED(ABL_EZABL) || ENABLED(ABL_NCSW)
     #define NOZZLE_TO_PROBE_OFFSET { 45, 7, 0 }
   #endif
